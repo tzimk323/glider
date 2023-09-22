@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+WORKDIR /app
+
+COPY ./requirements.txt ./
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
+COPY . /app
+#CMD ["uvicorn", "app2.main:app2", "--host", "0.0.0.0", "--port", "8000"]
+#CMD ["uvicorn", "todolist.main:app", "--host", "0.0.0.0", "--port", "8000","--reload"]
+CMD ["bash", "-c", "mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri todolist/mlruns & uvicorn todolist.main:app --host 0.0.0.0 --port 8000 --reload"]
+
+#EXPOSE 8000
+#EXPOSE 5000

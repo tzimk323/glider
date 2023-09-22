@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/tzim3/Desktop/TheGliderProject/Alpha/fastApiProject/todolist/MLalgs/mlruns/0/60ae5d499069430d91d9cf6907cf7604/artifacts
+deleted_time: 1695313389835
+end_time: 1695310210882
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 60ae5d499069430d91d9cf6907cf7604
+run_name: thatModel
+run_uuid: 60ae5d499069430d91d9cf6907cf7604
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695310210841
+status: 4
+tags: []
+user_id: tzim3

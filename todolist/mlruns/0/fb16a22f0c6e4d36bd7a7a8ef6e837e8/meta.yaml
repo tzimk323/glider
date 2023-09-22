@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/fb16a22f0c6e4d36bd7a7a8ef6e837e8/artifacts
+end_time: 1695219044781
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb16a22f0c6e4d36bd7a7a8ef6e837e8
+run_name: resilient-mole-309
+run_uuid: fb16a22f0c6e4d36bd7a7a8ef6e837e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695219044538
+status: 4
+tags: []
+user_id: tzim3

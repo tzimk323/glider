@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/958326450797334332/01abd3371dde4863877f8067d621c51b/artifacts
+end_time: 1695225438776
+entry_point_name: ''
+experiment_id: '958326450797334332'
+lifecycle_stage: active
+run_id: 01abd3371dde4863877f8067d621c51b
+run_name: debonair-pig-463
+run_uuid: 01abd3371dde4863877f8067d621c51b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695225438520
+status: 4
+tags: []
+user_id: tzim3
