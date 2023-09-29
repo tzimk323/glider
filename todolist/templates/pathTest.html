@@ -1,0 +1,24 @@
+{% include 'header.html'%}
+{% include 'navbar.html'%}
+<style>
+    .container {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+</style>
+<p style="margin-top: 0.5em; color: #eb4d31">"Below is A redis key:"</p>
+<p style="margin-top: 0.5em; color: #eb4d31">"{{redisKey}}"</p>
+
+
+<p style="margin-top: 0.5em; color: #eb4d31">"Below is A second  key from redis:"</p>
+<p style="margin-top: 0.5em; color: #eb4d31">"{{secondKey}}"</p>
+<p style="margin-top: 0.5em; color: #eb4d31">"Below is only the first key of push"</p>
+<p style="margin-top: 0.5em; color: #eb4d31">"{{first_element}}"</p>
+<p style="margin-top: 0.5em; color: #eb4d31">Popped item</p>
+<p style="margin-top: 0.5em; color: #eb4d31">"{{popped_item}}"</p>
+
+
+
+{% include 'footer.html'%}
